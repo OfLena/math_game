@@ -1,16 +1,22 @@
-require_relative './player'
+# require_relative './player'
 
-class Question
+# class Question
 
-  def ask_question
-    num1 = gets.chomp
-    num2 = gets.chomp
-   puts " asks: What is #{num1} + #{num2} ?"
-  end
+#   attr_reader :name
+#   # attr_accessor :lives
 
-  def answer_question
-    puts 
-  end
-end
+#   def initialize(name)
+#     @name = name
+#   end
 
-puts ask_question
+#   def ask_question
+#     num1 = rand(0..10)
+#     num2 = rand(0..10)
+#     puts "#{@name} asks: What is #{num1} + #{num2} ?"
+    
+#   end
+
+#   # def answer_question
+#   #   puts 
+#   # end
+# end
