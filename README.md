@@ -16,14 +16,19 @@ The game doesn’t end until one of the players loses all their lives. At this p
   - attr_reader :name
   - attr_accessor :lives
     - def initialize
-    - def game_over?
+    - def zero_lives?
   
 2. Question Class
-  - attr_writer :num
+  - def initialize
+  - def ask_question
+  - def answer
 
 3. Game Class
   - def initialize
   - def game_over?
   - def next_round
   - def display_lives
-  - def play
+  - def start_game
+
+4. Main.rb
+  - runs the game
